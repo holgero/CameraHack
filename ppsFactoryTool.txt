@@ -1,1 +1,0 @@
-module=wifi,,ssid=MYNETWORK,,password=MYPASSWORD,,
