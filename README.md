@@ -27,7 +27,7 @@ mem=37M console=ttyAMA0,115200n8 mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro
 
 2. Prepare `env` file: SD-Card/env (has a zero byte at the end)
 ```
-bootargs=mem=37M console=ttyAMA0,115200n8 mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro,64k(sysflg),3584k(sys),6656k(app),1536k(cfg),1m(recove),2880k(user),128k(oeminfo) ppsAppParts=5 ppsWatchInitEnd - ip=\\${T//_/\\$\\'"\\\\x20"\\'}:::::";T=\\"sleep_5;mkdir_-p_/mnt/mmc01;mount_-t_vfat_/dev/mmcblk0p1_/mnt/mmc01;cp_/mnt/mmc01/S90PPStrong-290_/etc/init.d/S90PPStrong;/mnt/mmc01/initrun.sh&\\";eval"
+bootargs=mem=37M console=ttyAMA0,115200n8 mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro,64k(sysflg),3584k(sys),6656k(app),1536k(cfg),1m(recove),2880k(user),128k(oeminfo) ppsAppParts=5 ppsWatchInitEnd - ip=\\${T//_/\\$\\'"\\\\x20"\\'}:::::";T=\\"sleep_5;mkdir_-p_/mnt/mmc01;mount_-t_vfat_/dev/mmcblk0p1_/mnt/mmc01;/mnt/mmc01/initrun.sh&\\";eval"
 ```
 
 3. Prepare FAT32 formatted SD card with the files `env`, `ppsMmcTool.txt` and `initrun.sh` in the root
@@ -36,8 +36,8 @@ bootargs=mem=37M console=ttyAMA0,115200n8 mtdparts=hi_sfc:384k(bld)ro,64k(env),6
 
 5. Check if it worked: `curl http://admin:056565099@192.168.178.29/proc/cmdline`
 ```
-mem=37M console=ttyAMA0,115200n8 mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro,64k(sysflg),3584k(sys),6656k(app),1536k(cfg),1m(recove),2880k(user),128k(oeminfo) ppsAppParts=5 ppsWatchInitEnd - ip=${T//_/$'\\x20'}:::::;T=\"sleep_5;mkdir_-p_/mnt/mmc01;mount_-t_vfat_/dev/mmcblk0p1_/mnt/mmc01;cp_/mnt/mmc01/S90PPStrong-290_/etc/init.d/S90PPStrong;/mnt/mmc01/initrun.sh&\";eval mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro,64k(sysflg),3584k(sys),6656k(app),1536k(cfg),1m(recove),2880k(user),128k(oeminfo) ppsAppParts=5 ppsWatchInitEnd
+mem=37M console=ttyAMA0,115200n8 mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro,64k(sysflg),3584k(sys),6656k(app),1536k(cfg),1m(recove),2880k(user),128k(oeminfo) ppsAppParts=5 ppsWatchInitEnd - ip=${T//_/$'\\x20'}:::::;T=\"sleep_5;mkdir_-p_/mnt/mmc01;mount_-t_vfat_/dev/mmcblk0p1_/mnt/mmc01;/mnt/mmc01/initrun.sh&\";eval mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro,64k(sysflg),3584k(sys),6656k(app),1536k(cfg),1m(recove),2880k(user),128k(oeminfo) ppsAppParts=5 ppsWatchInitEnd
 ```
-and `curl http://admin:056565099@192.168.178.29/proc/self/root/mnt/mmc01/hack` outputs `done`.
+   and `curl http://admin:056565099@192.168.178.29/proc/self/root/mnt/mmc01/hack` outputs `done`.
 
 
