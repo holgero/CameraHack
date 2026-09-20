@@ -1,0 +1,11 @@
+
+Wait for tuya mqtt:
+        000caa3c 00 20 a0 e3     mov        r2,#0x0
+->
+        000caa3c 01 20 a0 e3     mov        r2,#0x1
+
+Reboot after long time high cpu load
+        00086958 01 30 83 e2     add        r3,r3,#0x1
+->
+        00086958 00 30 83 e2     add        r3,r3,#0x0
+
