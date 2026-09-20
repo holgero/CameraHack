@@ -12,8 +12,8 @@ echo done > /mnt/mmc01/hack
 
 # Try to run custom.sh
 while true; do
+ sleep 30
  if [ -e /mnt/mmc01/custom.sh ]; then
   /mnt/mmc01/custom.sh
  fi
- sleep 10
 done
