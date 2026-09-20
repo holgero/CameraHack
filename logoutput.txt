@@ -1,0 +1,179 @@
+[08:58:28.432 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[08:59:08.433 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 08:59:19.133 TUYA Debug][app_agent.c:1591] lan version over 3.3
+[08:59:19.726 DEBUG tuya_ipc_dp_utils.c:467] {
+        "version":      1,
+        "sleep_mode":   0,
+        "alarm_fun_onoff":      1,
+        "alarm_fun_sensitivity":        0,
+        "alarm_fun_mode_switch":        0,
+        "alarm_fun_time_start": 0,
+        "alarm_fun_time_end":   0,
+        "flip_onoff":   0,
+        "light_onoff":  1,
+        "night_mode":   0,
+        "sound_detect_onoff":   0,
+        "sound_detect_sensitivity":     0,
+        "watermark_onoff":      1,
+        "event_record_time":    60,
+        "enable_event_record":  1,
+        "record_enable":        0,
+        "motion_trace": 1,
+        "motion_area_switch":   0,
+        "motion_area":  "",
+        "motion_tracking":      0,
+        "cry_detection_switch": 0,
+        "humanoid_filter":      1,
+        "flight_bright_mode":   0,
+        "flight_light_brightness":      100,
+        "flight_pir_set":       0,
+        "flight_pir_one":       0,
+        "flight_pir_two":       0,
+        "flight_pir_three":     0,
+        "flight_pir_sensitivity":       0,
+        "flight_alarm_fun_onoff":       0,
+        "flight_on_off":        0,
+        "flight_pir_light_on_time":     30,
+        "flight_warn_switch":   0,
+        "flight_dualbrite":     0,
+        "flight_ontime":        0,
+        "flight_highbrightess": 10,
+        "flight_lowbrightess":  10,
+        "flight_mode":  0,
+        "flight_motion_sens":   0
+}
+[08:59:19.729 DEBUG tuya_ipc_dp_utils.c:914] dp_id:134
+[08:59:19.729 DEBUG tuya_ipc_dp_utils.c:917] Respone: 1 
+[09-19 08:59:19.138 TUYA Debug][tuya_iot_com_api.c:596] dp compo:{"134":true}
+[09-19 08:59:19.138 TUYA Debug][smart_frame.c:1535] dp<134> check. need_update:1 pv_stat:1 trig_t:0 filter_type:0 force_send:1
+[09-19 08:59:19.163 TUYA Err][smart_frame.c:1296] mqtt async send fail -916
+[09-19 08:59:19.163 TUYA Debug][smart_frame.c:1306] Update Local DP Status
+[09-19 08:59:19.163 TUYA Err][tuya_iot_com_api.c:640] dp report async fail.ret:-916
+[09-19 08:59:19.163 TUYA Debug][app_agent.c:1996] Prepare To Send Lan:{"dps":{"134":true}}
+[09-19 08:59:20.641 TUYA Debug][gw_intf.c:4426] dev delete -->>
+[09-19 08:59:20.641 TUYA Debug][gw_intf.c:4471] dev delete <<--
+[08:59:48.432 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:00:28.412 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:01:08.412 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:01:48.412 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:02:25.354 INFO pps_sd_stream_mng.c:1088] motion detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_line:2148
+md_callback....
+[09:02:25.872 DEBUG third_party_media.c:1051] pic size 0 == 25452
+[09:02:25.872 DEBUG third_party_media.c:1051] pic size 1 == 26193
+[09:02:25.872 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 25452
+[09:02:25.872 DEBUG tuya_device_states_report.c:51]  md_event_cb image len:25452 
+[09:02:25.872 DEBUG tuya_pps_ipc_event.c:73] md time inteval 1789801345 
+[09:02:25.872 DEBUG tuya_device_states_report.c:79] --------------motion detection alarm -------------------->
+[09-19 09:02:25.285 TUYA Debug][tuya_ipc_api.c:599] size:25452 type: 1
+[09-19 09:02:25.285 TUYA Debug][tuya_ipc_notification.c:501] cloud config Not Inited
+[09-19 09:02:25.285 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789801345}
+[09-19 09:02:25.285 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.json?a=tuya.device.storage.config.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789801345&v=1.0&sign=ca50cbfe3e6e32204190c872bed81b3a
+[09-19 09:02:25.285 TUYA Debug][httpc.c:729] Connect: a2.tuyaeu.com Port: 443
+store dns info to position 7 for a2.tuyaeu.com
+[09-19 09:02:25.286 TUYA Err][httpc.c:485] tcp connect failed a2.tuyaeu.com:443 errno=111
+clean dns info for a2.tuyaeu.com
+[09-19 09:02:25.286 TUYA Err][http_inf.c:45] Open session failed: https://a2.tuyaeu.com/d.json?a=tuya.device.storage.config.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789801345&v=1.0&sign=ca50cbfe3e6e32204190c872bed81b3a (-7)
+[09-19 09:02:25.286 TUYA Err][iot_httpc.c:829] Post Data Return Fail.-706
+[09-19 09:02:25.287 TUYA Err][tuya_ipc_notification.c:506] cloud_get_detect_storage_config fail, ret -706
+[09-19 09:02:25.292 TUYA Err][tuya_ipc_notification.c:552] notification_content_upload_from_buffer init failed:-706
+
+[09-19 09:02:25.294 TUYA Debug][tuya_ipc_notification.c:501] cloud config Not Inited
+[09-19 09:02:25.294 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789801345}
+[09-19 09:02:25.295 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.json?a=tuya.device.storage.config.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789801345&v=1.0&sign=ca50cbfe3e6e32204190c872bed81b3a
+[09-19 09:02:25.295 TUYA Debug][httpc.c:729] Connect: a2.tuyaeu.com Port: 443
+store dns info to position 7 for a2.tuyaeu.com
+[09-19 09:02:25.297 TUYA Err][httpc.c:485] tcp connect failed a2.tuyaeu.com:443 errno=111
+clean dns info for a2.tuyaeu.com
+[09-19 09:02:25.298 TUYA Err][http_inf.c:45] Open session failed: https://a2.tuyaeu.com/d.json?a=tuya.device.storage.config.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789801345&v=1.0&sign=ca50cbfe3e6e32204190c872bed81b3a (-7)
+[09-19 09:02:25.298 TUYA Err][iot_httpc.c:829] Post Data Return Fail.-706
+[09-19 09:02:25.299 TUYA Err][tuya_ipc_notification.c:506] cloud_get_detect_storage_config fail, ret -706
+[09-19 09:02:25.299 TUYA Err][tuya_ipc_notification.c:552] notification_content_upload_from_buffer init failed:-706
+
+[09-19 09:02:25.299 TUYA Debug][tuya_ipc_notification.c:501] cloud config Not Inited
+[09-19 09:02:25.299 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789801345}
+[09-19 09:02:25.300 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.json?a=tuya.device.storage.config.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789801345&v=1.0&sign=ca50cbfe3e6e32204190c872bed81b3a
+[09-19 09:02:25.301 TUYA Debug][httpc.c:729] Connect: a2.tuyaeu.com Port: 443
+store dns info to position 7 for a2.tuyaeu.com
+[09-19 09:02:25.302 TUYA Err][httpc.c:485] tcp connect failed a2.tuyaeu.com:443 errno=111
+clean dns info for a2.tuyaeu.com
+[09-19 09:02:25.303 TUYA Err][http_inf.c:45] Open session failed: https://a2.tuyaeu.com/d.json?a=tuya.device.storage.config.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789801345&v=1.0&sign=ca50cbfe3e6e32204190c872bed81b3a (-7)
+[09-19 09:02:25.303 TUYA Err][iot_httpc.c:829] Post Data Return Fail.-706
+[09-19 09:02:25.304 TUYA Err][tuya_ipc_notification.c:506] cloud_get_detect_storage_config fail, ret -706
+[09-19 09:02:25.304 TUYA Err][tuya_ipc_notification.c:552] notification_content_upload_from_buffer init failed:-706
+
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:02:28.412 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 09:02:31.568 TUYA Debug][mqtt_client.c:715] serverIP 2130706433 port:8883
+[09-19 09:02:31.569 TUYA Err][mqtt_client.c:1010] mqtt socket connect fail. retry_cnt:2 op_ret:-703 errno:-25
+[09-19 09:02:32.571 TUYA Debug][mqtt_client.c:608] close mqtt
+[09-19 09:02:32.571 TUYA Debug][mqtt_client.c:1105] mqtt fail_cnt:397 and sleeptime:300000 ms
+[09:03:08.412 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:03:48.412 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:04:28.412 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:05:08.392 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:05:48.392 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:06:28.392 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 09:06:45.85 TUYA Debug][app_agent.c:1591] lan version over 3.3
+[09:06:45.677 DEBUG tuya_ipc_dp_utils.c:467] {
+        "version":      1,
+        "sleep_mode":   0,
+        "alarm_fun_onoff":      0,
+        "alarm_fun_sensitivity":        0,
+        "alarm_fun_mode_switch":        0,
+        "alarm_fun_time_start": 0,
+        "alarm_fun_time_end":   0,
+        "flip_onoff":   0,
+        "light_onoff":  1,
+        "night_mode":   0,
+        "sound_detect_onoff":   0,
+        "sound_detect_sensitivity":     0,
+        "watermark_onoff":      1,
+        "event_record_time":    60,
+        "enable_event_record":  1,
+        "record_enable":        0,
+        "motion_trace": 1,
+        "motion_area_switch":   0,
+        "motion_area":  "",
+        "motion_tracking":      0,
+        "cry_detection_switch": 0,
+        "humanoid_filter":      1,
+        "flight_bright_mode":   0,
+        "flight_light_brightness":      100,
+        "flight_pir_set":       0,
+        "flight_pir_one":       0,
+        "flight_pir_two":       0,
+        "flight_pir_three":     0,
+        "flight_pir_sensitivity":       0,
+        "flight_alarm_fun_onoff":       0,
+        "flight_on_off":        0,
+        "flight_pir_light_on_time":     30,
+        "flight_warn_switch":   0,
+        "flight_dualbrite":     0,
+        "flight_ontime":        0,
+        "flight_highbrightess": 10,
+        "flight_lowbrightess":  10,
+        "flight_mode":  0,
+        "flight_motion_sens":   0
+}
+[09:06:45.679 DEBUG tuya_ipc_dp_utils.c:914] dp_id:134
+[09:06:45.684 DEBUG tuya_ipc_dp_utils.c:917] Respone: 0 
+[09-19 09:06:45.94 TUYA Debug][tuya_iot_com_api.c:596] dp compo:{"134":false}
+[09-19 09:06:45.95 TUYA Debug][smart_frame.c:1535] dp<134> check. need_update:1 pv_stat:1 trig_t:0 filter_type:0 force_send:1
+[09-19 09:06:45.113 TUYA Err][smart_frame.c:1296] mqtt async send fail -916
+[09-19 09:06:45.113 TUYA Debug][smart_frame.c:1306] Update Local DP Status
+[09-19 09:06:45.113 TUYA Err][tuya_iot_com_api.c:640] dp report async fail.ret:-916
+[09-19 09:06:45.113 TUYA Debug][app_agent.c:1996] Prepare To Send Lan:{"dps":{"134":false}}
+[09-19 09:06:46.601 TUYA Debug][gw_intf.c:4426] dev delete -->>
+[09-19 09:06:46.601 TUYA Debug][gw_intf.c:4471] dev delete <<--
+[09:07:08.392 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 09:07:32.603 TUYA Debug][mqtt_client.c:715] serverIP 2130706433 port:8883
+[09-19 09:07:32.604 TUYA Err][mqtt_client.c:1010] mqtt socket connect fail. retry_cnt:3 op_ret:-703 errno:-25
+[09-19 09:07:33.611 TUYA Debug][mqtt_client.c:608] close mqtt
+[09-19 09:07:33.611 TUYA Debug][mqtt_client.c:1105] mqtt fail_cnt:398 and sleeptime:239468 ms
+

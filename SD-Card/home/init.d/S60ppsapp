@@ -1,0 +1,29 @@
+#!/bin/sh
+cleanup()
+{
+    sleep 15
+    rm /home/app -rf
+}
+
+drop_caches()
+{
+    sleep 20
+    until [ 1 -gt 2 ]
+    do
+        echo 3 > /proc/sys/vm/drop_caches
+        sleep 2
+    done
+}
+
+cd /home/app/ 
+./network &
+sleep 1
+./ppsapp &
+cd /
+cleanup &
+
+
+drop_caches &
+
+#iperf -s &
+#iperf -s -u &

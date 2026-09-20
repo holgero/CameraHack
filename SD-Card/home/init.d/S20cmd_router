@@ -1,0 +1,7 @@
+#!/bin/sh
+ulimit -s 256
+
+echo "cmd_router start"
+cd /bin
+./cmd_router &
+

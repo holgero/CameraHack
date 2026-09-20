@@ -1,0 +1,590 @@
+2026-19-09 09:46:51 +  start
+[09:34:28.073 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:35:08.072 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+store d s i fo to positio  7 for m2.tuyaeu.com
+[09-19 09:35:17.206 TUYA Debug][mqtt_clie t.c:986] select mqtt host:m2.tuyaeu.com
+[09-19 09:35:17.206 TUYA Notice][mqtt_clie t.c:999] mqtt get serve ip success
+[09-19 09:35:17.219 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 09:35:17.220 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:0 op_ret:-703 err o:-25
+[09-19 09:35:18.221 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 09:35:18.221 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:407 a d sleeptime:172748 ms
+[09:35:48.072 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:36:28.072 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:37:08.072 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:37:48.073 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 09:38:11.7 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 09:38:11.9 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:1 op_ret:-703 err o:-25
+[09-19 09:38:12.11 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 09:38:12.11 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:408 a d sleeptime:184469 ms
+[09:38:28.073 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:39:08.052 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:39:48.052 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:40:28.053 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:41:08.052 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 09:41:16.508 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 09:41:16.509 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:2 op_ret:-703 err o:-25
+[09-19 09:41:17.511 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 09:41:17.511 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:409 a d sleeptime:300000 ms
+[09:41:48.032 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:42:28.012 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:43:08.012 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:43:48.012 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:44:28.012 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:45:08.019 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:45:48.017 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 09:46:17.535 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 09:46:17.535 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:3 op_ret:-703 err o:-25
+[09-19 09:46:18.541 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 09:46:18.541 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:410 a d sleeptime:300000 ms
+[09:46:28.017 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 09:46:33.51 TUYA Debug][tuya_ipc_cloud_storage.c:1108] active require cloud storage co fig
+[09-19 09:46:33.51 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"true","t":1789803993}
+[09-19 09:46:33.51 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789803993&v=1.0&sig =13e0fffdfdce81a39e4124d2c5a186d1
+[09-19 09:46:33.52 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:46:33.52 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:46:33.52 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789803993&v=1.0&sig =13e0fffdfdce81a39e4124d2c5a186d1 (-7)
+[09-19 09:46:33.52 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:46:33.52 TUYA Err][tuya_ipc_cloud_storage.c:431] fail to get cloud co fig ret -706
+[09:47:07.993 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:47:47.972 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:48:27.972 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:49:07.972 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:49:25.802 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:49:26.542 DEBUG third_party_media.c:1051] pic size 0 == 26823
+[09:49:26.542 DEBUG third_party_media.c:1051] pic size 1 == 27357
+[09:49:26.542 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 26823
+[09:49:26.542 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :26823 
+[09:49:26.542 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 1521 
+[09:49:26.542 DEBUG tuya_device_states_report.c:79] --------------motio  detectio  alarm -------------------->
+[09-19 09:49:25.951 TUYA Debug][tuya_ipc_api.c:599] size:26823 type: 1
+[09-19 09:49:25.951 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:49:25.951 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804165}
+[09-19 09:49:25.952 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804165&v=1.0&sig =c977a54e1a54a806e0b26176f4e726d7
+[09-19 09:49:25.952 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:49:25.952 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:49:25.953 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804165&v=1.0&sig =c977a54e1a54a806e0b26176f4e726d7 (-7)
+[09-19 09:49:25.953 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:49:25.953 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:49:25.953 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 09:49:25.953 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:49:25.953 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804165}
+[09-19 09:49:25.953 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804165&v=1.0&sig =c977a54e1a54a806e0b26176f4e726d7
+[09-19 09:49:25.953 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:49:25.954 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:49:25.954 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804165&v=1.0&sig =c977a54e1a54a806e0b26176f4e726d7 (-7)
+[09-19 09:49:25.954 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:49:25.954 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:49:25.954 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 09:49:25.954 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:49:25.954 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804165}
+[09-19 09:49:25.954 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804165&v=1.0&sig =c977a54e1a54a806e0b26176f4e726d7
+[09-19 09:49:25.960 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:49:25.964 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:49:25.968 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804165&v=1.0&sig =c977a54e1a54a806e0b26176f4e726d7 (-7)
+[09-19 09:49:25.970 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:49:25.970 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:49:25.970 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:49:37.590 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:49:38.692 DEBUG third_party_media.c:1051] pic size 0 == 31293
+[09:49:38.692 DEBUG third_party_media.c:1051] pic size 1 == 32439
+[09:49:38.692 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 31293
+[09:49:38.692 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :31293 
+[09:49:38.693 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 12 
+[09:49:38.693 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:49:45.167 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:49:45.763 DEBUG third_party_media.c:1051] pic size 0 == 31033
+[09:49:45.763 DEBUG third_party_media.c:1051] pic size 1 == 31974
+[09:49:45.763 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 31033
+[09:49:45.763 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :31033 
+[09:49:45.763 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 19 
+[09:49:45.763 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:49:47.933 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:49:50.263 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:49:50.812 DEBUG third_party_media.c:1051] pic size 0 == 25878
+[09:49:50.812 DEBUG third_party_media.c:1051] pic size 1 == 26796
+[09:49:50.812 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 25878
+[09:49:50.812 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :25878 
+[09:49:50.812 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 24 
+[09:49:50.822 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:50:27.912 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:51:07.892 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+store d s i fo to positio  7 for m2.tuyaeu.com
+[09-19 09:51:18.564 TUYA Debug][mqtt_clie t.c:986] select mqtt host:m2.tuyaeu.com
+[09-19 09:51:18.564 TUYA Notice][mqtt_clie t.c:999] mqtt get serve ip success
+[09-19 09:51:18.576 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 09:51:18.578 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:0 op_ret:-703 err o:-25
+[09-19 09:51:19.582 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 09:51:19.582 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:411 a d sleeptime:300000 ms
+[09:51:47.892 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:52:27.892 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 09:52:37.651 TUYA Err][tuya_ipc_p2p.c:3643] liste  failed sessio [-3] did[TUYASD-956028-PYWXG] apilice se[PIWNDT:vlkE30ib]
+
+p2p LISTEN sessio ........
+[09-19 09:52:40.662 TUYA Debug][iot_httpc.c:812] Post Data: {"type":"ipc_log","data":"[09-19 09:52:40 TUYA][tuya_ipc_p2p.c:3640] p2p_v2 LISTEN sessio ........","t":1789804360}
+[09-19 09:52:40.662 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.log.report&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804360&v=1.0&sig =c20d1fbd2bd2ab9894290a0bb3dce795
+[09-19 09:52:40.662 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:52:40.663 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:52:40.663 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.log.report&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804360&v=1.0&sig =c20d1fbd2bd2ab9894290a0bb3dce795 (-7)
+[09-19 09:52:40.663 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09:53:07.892 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:53:47.892 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:54:03.990 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:54:04.273 DEBUG third_party_media.c:1051] pic size 0 == 26324
+[09:54:04.273 DEBUG third_party_media.c:1051] pic size 1 == 26801
+[09:54:04.273 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 26324
+[09:54:04.273 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :26324 
+[09:54:04.273 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 278 
+[09:54:04.273 DEBUG tuya_device_states_report.c:79] --------------motio  detectio  alarm -------------------->
+[09-19 09:54:03.682 TUYA Debug][tuya_ipc_api.c:599] size:26324 type: 1
+[09-19 09:54:03.682 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:54:03.682 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804443}
+[09-19 09:54:03.682 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804443&v=1.0&sig =642b6172be7ae23c392dac4ddfc7b82a
+[09-19 09:54:03.682 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:54:03.683 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:54:03.683 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804443&v=1.0&sig =642b6172be7ae23c392dac4ddfc7b82a (-7)
+[09-19 09:54:03.683 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:54:03.683 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:54:03.683 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 09:54:03.683 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:54:03.683 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804443}
+[09-19 09:54:03.683 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804443&v=1.0&sig =642b6172be7ae23c392dac4ddfc7b82a
+[09-19 09:54:03.683 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:54:03.684 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:54:03.684 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804443&v=1.0&sig =642b6172be7ae23c392dac4ddfc7b82a (-7)
+[09-19 09:54:03.684 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:54:03.684 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:54:03.684 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 09:54:03.684 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:54:03.684 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804443}
+[09-19 09:54:03.685 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804443&v=1.0&sig =642b6172be7ae23c392dac4ddfc7b82a
+[09-19 09:54:03.685 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:54:03.685 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:54:03.685 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804443&v=1.0&sig =642b6172be7ae23c392dac4ddfc7b82a (-7)
+[09-19 09:54:03.685 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:54:03.685 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:54:03.685 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:54:27.892 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:55:07.872 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:55:09.525 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:55:09.922 DEBUG third_party_media.c:1051] pic size 0 == 24733
+[09:55:09.922 DEBUG third_party_media.c:1051] pic size 1 == 23027
+[09:55:09.922 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 24733
+[09:55:09.923 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :24733 
+[09:55:09.923 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 65 
+[09:55:09.923 DEBUG tuya_device_states_report.c:79] --------------motio  detectio  alarm -------------------->
+[09-19 09:55:09.331 TUYA Debug][tuya_ipc_api.c:599] size:24733 type: 1
+[09-19 09:55:09.331 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:55:09.332 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804509}
+[09-19 09:55:09.332 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804509&v=1.0&sig =a1c6a3cf63ef7116697373c2e81ac9e9
+[09-19 09:55:09.332 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:55:09.332 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:55:09.333 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804509&v=1.0&sig =a1c6a3cf63ef7116697373c2e81ac9e9 (-7)
+[09-19 09:55:09.333 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:55:09.333 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:55:09.333 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 09:55:09.333 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:55:09.333 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804509}
+[09-19 09:55:09.333 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804509&v=1.0&sig =a1c6a3cf63ef7116697373c2e81ac9e9
+[09-19 09:55:09.333 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:55:09.334 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:55:09.334 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804509&v=1.0&sig =a1c6a3cf63ef7116697373c2e81ac9e9 (-7)
+[09-19 09:55:09.334 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:55:09.334 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:55:09.334 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 09:55:09.334 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:55:09.334 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804509}
+[09-19 09:55:09.334 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804509&v=1.0&sig =a1c6a3cf63ef7116697373c2e81ac9e9
+[09-19 09:55:09.334 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:55:09.335 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:55:09.335 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804509&v=1.0&sig =a1c6a3cf63ef7116697373c2e81ac9e9 (-7)
+[09-19 09:55:09.335 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:55:09.335 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:55:09.335 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:55:17.731 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:55:18.002 DEBUG third_party_media.c:1051] pic size 0 == 25169
+[09:55:18.002 DEBUG third_party_media.c:1051] pic size 1 == 26006
+[09:55:18.002 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 25169
+[09:55:18.002 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :25169 
+[09:55:18.002 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 9 
+[09:55:18.002 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:55:35.059 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:55:36.182 DEBUG third_party_media.c:1051] pic size 0 == 24810
+[09:55:36.182 DEBUG third_party_media.c:1051] pic size 1 == 25371
+[09:55:36.182 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 24810
+[09:55:36.182 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :24810 
+[09:55:36.182 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 27 
+[09:55:36.182 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:55:43.868 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:55:44.262 DEBUG third_party_media.c:1051] pic size 0 == 26165
+[09:55:44.262 DEBUG third_party_media.c:1051] pic size 1 == 26993
+[09:55:44.262 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 26165
+[09:55:44.262 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :26165 
+[09:55:44.262 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 35 
+[09:55:44.262 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:55:47.842 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:55:48.289 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:55:49.312 DEBUG third_party_media.c:1051] pic size 0 == 25762
+[09:55:49.312 DEBUG third_party_media.c:1051] pic size 1 == 27223
+[09:55:49.312 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 25762
+[09:55:49.312 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :25762 
+[09:55:49.312 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 40 
+[09:55:49.312 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:55:51.269 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:55:52.342 DEBUG third_party_media.c:1051] pic size 0 == 26937
+[09:55:52.342 DEBUG third_party_media.c:1051] pic size 1 == 28002
+[09:55:52.342 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 26937
+[09:55:52.342 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :26937 
+[09:55:52.342 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 43 
+[09:55:52.342 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:55:54.330 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:55:55.372 DEBUG third_party_media.c:1051] pic size 0 == 26459
+[09:55:55.372 DEBUG third_party_media.c:1051] pic size 1 == 27512
+[09:55:55.372 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 26459
+[09:55:55.372 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :26459 
+[09:55:55.372 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 46 
+[09:55:55.373 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:55:57.794 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:55:58.402 DEBUG third_party_media.c:1051] pic size 0 == 26117
+[09:55:58.402 DEBUG third_party_media.c:1051] pic size 1 == 27389
+[09:55:58.402 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 26117
+[09:55:58.402 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :26117 
+[09:55:58.402 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 49 
+[09:55:58.402 DEBUG tuya_device_states_report.c:77]  motio  detectio  time  ot  
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09:56:01.087 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[09:56:01.432 DEBUG third_party_media.c:1051] pic size 0 == 26797
+[09:56:01.432 DEBUG third_party_media.c:1051] pic size 1 == 27565
+[09:56:01.432 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 26797
+[09:56:01.432 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :26797 
+[09:56:01.433 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 52 
+[09:56:01.433 DEBUG tuya_device_states_report.c:79] --------------motio  detectio  alarm -------------------->
+[09-19 09:56:00.841 TUYA Debug][tuya_ipc_api.c:599] size:26797 type: 1
+[09-19 09:56:00.841 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:56:00.842 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804560}
+[09-19 09:56:00.842 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804560&v=1.0&sig =44eb39477c3acf1c2620c33c1db43d17
+[09-19 09:56:00.842 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:56:00.842 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:56:00.843 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804560&v=1.0&sig =44eb39477c3acf1c2620c33c1db43d17 (-7)
+[09-19 09:56:00.843 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:56:00.843 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:56:00.843 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 09:56:00.843 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:56:00.843 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804560}
+[09-19 09:56:00.843 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804560&v=1.0&sig =44eb39477c3acf1c2620c33c1db43d17
+[09-19 09:56:00.843 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:56:00.844 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:56:00.844 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804560&v=1.0&sig =44eb39477c3acf1c2620c33c1db43d17 (-7)
+[09-19 09:56:00.844 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:56:00.844 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:56:00.844 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 09:56:00.844 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 09:56:00.844 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789804560}
+[09-19 09:56:00.844 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804560&v=1.0&sig =44eb39477c3acf1c2620c33c1db43d17
+[09-19 09:56:00.860 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 09:56:00.860 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 09:56:00.863 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789804560&v=1.0&sig =44eb39477c3acf1c2620c33c1db43d17 (-7)
+[09-19 09:56:00.863 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 09:56:00.863 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 09:56:00.863 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[09-19 09:56:19.609 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 09:56:19.611 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:1 op_ret:-703 err o:-25
+[09-19 09:56:20.621 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 09:56:20.621 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:412 a d sleeptime:300000 ms
+[09:56:27.832 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:57:07.813 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:57:47.812 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:58:27.792 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:59:07.792 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09:59:47.793 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:00:27.792 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:01:07.792 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 10:01:20.642 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 10:01:20.643 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:2 op_ret:-703 err o:-25
+[09-19 10:01:21.651 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 10:01:21.651 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:413 a d sleeptime:107599 ms
+[10:01:47.792 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:02:27.792 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:03:07.792 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 10:03:09.299 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 10:03:09.299 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:3 op_ret:-703 err o:-25
+[09-19 10:03:10.301 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 10:03:10.301 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:414 a d sleeptime:59585 ms
+[10:03:47.772 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+store d s i fo to positio  7 for m2.tuyaeu.com
+[09-19 10:04:09.915 TUYA Debug][mqtt_clie t.c:986] select mqtt host:m2.tuyaeu.com
+[09-19 10:04:09.915 TUYA Notice][mqtt_clie t.c:999] mqtt get serve ip success
+[09-19 10:04:09.928 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 10:04:09.929 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:0 op_ret:-703 err o:-25
+[09-19 10:04:10.931 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 10:04:10.931 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:415 a d sleeptime:232873 ms
+[10:04:27.772 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:05:07.772 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:05:47.772 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:06:27.772 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:07:07.772 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:07:47.462 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 10:08:03.839 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 10:08:03.839 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:1 op_ret:-703 err o:-25
+[09-19 10:08:04.841 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 10:08:04.841 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:416 a d sleeptime:300000 ms
+[10:08:27.223 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:09:06.982 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:09:46.682 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:10:26.342 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:11:06.022 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:11:45.752 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:12:25.482 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:13:05.182 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 10:13:04.868 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 10:13:04.869 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:2 op_ret:-703 err o:-25
+[09-19 10:13:05.871 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 10:13:05.871 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:417 a d sleeptime:8779 ms
+[09-19 10:13:14.674 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 10:13:14.675 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:3 op_ret:-703 err o:-25
+[09-19 10:13:15.681 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 10:13:15.681 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:418 a d sleeptime:226865 ms
+[10:13:44.782 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:14:24.482 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:15:04.222 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:15:43.823 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:16:23.522 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+store d s i fo to positio  7 for m2.tuyaeu.com
+[09-19 10:17:02.577 TUYA Debug][mqtt_clie t.c:986] select mqtt host:m2.tuyaeu.com
+[09-19 10:17:02.577 TUYA Notice][mqtt_clie t.c:999] mqtt get serve ip success
+[09-19 10:17:02.588 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 10:17:02.589 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:0 op_ret:-703 err o:-25
+[10:17:03.202 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 10:17:03.591 TUYA Debug][mqtt_clie t.c:608] close mqtt
+[09-19 10:17:03.591 TUYA Debug][mqtt_clie t.c:1105] mqtt fail_c t:419 a d sleeptime:300000 ms
+[10:17:42.822 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:18:22.503 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:19:02.102 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:19:41.882 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:20:21.482 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:20:42.351 INFO pps_sd_stream_m g.c:1088] motio  detect flag 1
+123---------------------#@#
+
+call user###pps_media_md_task_loop_call_li e:2148
+md_callback....
+[10:20:42.902 DEBUG third_party_media.c:1051] pic size 0 == 24721
+[10:20:42.902 DEBUG third_party_media.c:1051] pic size 1 == 25884
+[10:20:42.902 DEBUG third_party_media.c:1056] picture: 0x76b6c0, size: 24721
+[10:20:42.902 DEBUG tuya_device_states_report.c:51]  md_eve t_cb image le :24721 
+[10:20:42.902 DEBUG tuya_pps_ipc_eve t.c:73] md time i teval 1481 
+[10:20:42.902 DEBUG tuya_device_states_report.c:79] --------------motio  detectio  alarm -------------------->
+[09-19 10:20:42.311 TUYA Debug][tuya_ipc_api.c:599] size:24721 type: 1
+[09-19 10:20:42.311 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 10:20:42.311 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789806042}
+[09-19 10:20:42.312 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789806042&v=1.0&sig =b38a23e6ae3e18f1d7dbd50234de4762
+[09-19 10:20:42.312 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 10:20:42.312 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 10:20:42.312 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789806042&v=1.0&sig =b38a23e6ae3e18f1d7dbd50234de4762 (-7)
+[09-19 10:20:42.313 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 10:20:42.313 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 10:20:42.313 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 10:20:42.313 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 10:20:42.313 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789806042}
+[09-19 10:20:42.313 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789806042&v=1.0&sig =b38a23e6ae3e18f1d7dbd50234de4762
+[09-19 10:20:42.313 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 10:20:42.314 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 10:20:42.327 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789806042&v=1.0&sig =b38a23e6ae3e18f1d7dbd50234de4762 (-7)
+[09-19 10:20:42.327 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 10:20:42.327 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 10:20:42.328 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+[09-19 10:20:42.328 TUYA Debug][tuya_ipc_ otificatio .c:501] cloud co fig Not I ited
+[09-19 10:20:42.328 TUYA Debug][iot_httpc.c:812] Post Data: {"withVideoDataStorage":"false","t":1789806042}
+[09-19 10:20:42.331 TUYA Debug][iot_httpc.c:823] Post URL: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789806042&v=1.0&sig =b38a23e6ae3e18f1d7dbd50234de4762
+[09-19 10:20:42.331 TUYA Debug][httpc.c:729] Co  ect: a2.tuyaeu.com Port: 443
+store d s i fo to positio  7 for a2.tuyaeu.com
+[09-19 10:20:42.332 TUYA Err][httpc.c:485] tcp co  ect failed a2.tuyaeu.com:443 err o=111
+clea  d s i fo for a2.tuyaeu.com
+[09-19 10:20:42.332 TUYA Err][http_i f.c:45] Ope  sessio  failed: https://a2.tuyaeu.com/d.jso ?a=tuya.device.storage.co fig.get&devId=bf8f81e5694478b23bg7gp&et=1&t=1789806042&v=1.0&sig =b38a23e6ae3e18f1d7dbd50234de4762 (-7)
+[09-19 10:20:42.332 TUYA Err][iot_httpc.c:829] Post Data Retur  Fail.-706
+[09-19 10:20:42.333 TUYA Err][tuya_ipc_ otificatio .c:506] cloud_get_detect_storage_co fig fail, ret -706
+[09-19 10:20:42.333 TUYA Err][tuya_ipc_ otificatio .c:552]  otificatio _co te t_upload_from_buffer i it failed:-706
+
+
+
+
+md pps_media_md_freeCapPic  :pps_media_md_freeCapPic  1906
+[10:21:01.302 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[10:21:40.972 DEBUG third_party_sd.c:150] #####sd_status:1:file_system:1
+[09-19 10:22:03.616 TUYA Debug][mqtt_clie t.c:715] serverIP 2130706433 port:8883
+[09-19 10:22:03.617 TUYA Err][mqtt_clie t.c:1010] mqtt socket co  ect fail. retry_c t:1 op_ret:-703 err o:-25
+[09-19 10:22:04.384 TUYA Debug][app_age t.c:1591] la  versio  over 3.3
+[10:22:04.976 DEBUG tuya_ipc_dp_utils.c:467] {
+	"versio ":	1,
+	"sleep_mode":	0,
+	"alarm_fu _o off":	0,
+	"alarm_fu _se sitivity":	0,
+	"alarm_fu _mode_switch":	0,
+	"alarm_fu _time_start":	0,
+	"alarm_fu _time_e d":	0,
+	"flip_o off":	0,
+	"light_o off":	1,
+	" ight_mode":	0,
+	"sou d_detect_o off":	0,
+	"sou d_detect_se sitivity":	0,
+	"watermark_o off":	1,
+	"eve t_record_time":	60,
+	"e able_eve t_record":	1,
+	"record_e able":	0,
+	"motio _trace":	1,
+	"motio _area_switch":	0,

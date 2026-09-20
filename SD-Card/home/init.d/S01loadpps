@@ -1,0 +1,33 @@
+#!/bin/sh
+cd /home/drv
+
+insmod Strnio.ko
+sleep 1
+echo "start motor.ko"
+insmod motor.ko
+echo "start motor.ko ok"
+
+insmod 8188fu.ko
+#echo testWatchdog#@# > /proc/ppshal/dev_info
+
+systime_file=/home/cfg/sys_time
+echo "===========start running app================" >> $systime_file
+
+echo /mnt/mmc01/core-%e-%p-%t-%s > /proc/sys/kernel/core_pattern
+
+#[ -e /home/hisi/ko ] && cd /home/hisi/ko && ./load3518ev300 -i -sensor soif23 -osmem 37M
+
+PPS_PARAMS=`cat /proc/ppshal/dev_info`
+#echo $PPS_PARAMS
+[ -e /home/hisi/ko ] && cd /home/hisi/ko && ./load3518ev300 -i $PPS_PARAMS
+
+
+
+# libs
+[ -e /lib/libcurl.so.4.4.0 ] && ln -s /lib/libcurl.so.4.4.0 /lib/libcurl.so.4 && ln -s /lib/libcurl.so.4.4.0 /lib/libcurl.so
+
+# cleanning
+rm /home/drv -rf
+[ -e /home/hisi ] && rm /home/hisi -rf
+
+ifconfig lo up
