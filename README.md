@@ -9,6 +9,7 @@ most of the files I use come from there. But I used also instructions from
 * https://github.com/guino/BazzDoorbell/issues/13
 * https://github.com/guino/BazzDoorbell/wiki/%5BHow-to%5D-Integrate-with-Home-Assistant,-HomeBridge,-Domoticz,-etc
 * https://github.com/guino/BazzDoorbell/issues/4#issuecomment-1208466146
+* https://github.com/guino/ppsapp-rtsp
 
 My camera had port 80 open from the beginning and I could use that
 to get the device info from it:
