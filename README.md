@@ -40,4 +40,7 @@ mem=37M console=ttyAMA0,115200n8 mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro
 ```
    and `curl http://admin:056565099@192.168.178.29/proc/self/root/mnt/mmc01/hack` outputs `done`.
 
+6. Add the mmc files and busybox to the SD card, set the user and password to 'user' and 'telnet' for both telnet and http access (DES encrypted in the file `passwd` and as plaintext in `httpd.conf`. Uncomment the lines for recording and event recording in `custom.sh`.
+
+7. Power off the camera, insert the SD card, power on. So far all worked fine, now had telnet and http access to the camera.
 
