@@ -13,6 +13,8 @@ umount /opt/pps
 cd /home/app/
 ./network &
 sleep 1
+/mnt/mmc01/busybox ntpd -d -q -n -p fritz.box
+sleep 1
 /mnt/mmc01/ppsapp-rtsp &
 sleep 15
 rm /home/app -rf
