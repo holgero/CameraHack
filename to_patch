@@ -14,3 +14,11 @@ Wait for time synced
 ->
         001719d8 00 30 a0 e3     mov        r3,#0x0
 
+Increase wait time between cloud access tries
+        000d8d8c 64 00 a0 e3     mov        r0,#0x64
+->
+        000d8d8c 96 0f a0 e3     mov        r0,#0x258
+
+        000d8e08 64 00 a0 e3     mov        r0,#0x64
+->
+        000d8e08 96 0f a0 e3     mov        r0,#0x258
