@@ -45,3 +45,10 @@ mem=37M console=ttyAMA0,115200n8 mtdparts=hi_sfc:384k(bld)ro,64k(env),64k(enc)ro
 
 7. Power off the camera, insert the SD card, power on. So far all worked fine, now had telnet and http access to the camera.
 
+8. Get rtsp to work. Requested a patch for my ppsapp version, but proceeded and patched it myself: https://github.com/guino/ppsapp-rtsp/issues/1#issuecomment-5654385761
+   First attempt to use the patched ppsapp failed, until I noticed that I had to apply extra stuff from https://github.com/guino/ppsapp-rtsp/issues/1#issuecomment-5654385761
+   Now I had the camera working and I could access the video stream from home assistant. Still, when I tried to access it with the tuya local integration https://github.com/xZetsubou/hass-localtuya the camera
+   got into a reboot loop.
+
+9. Noticed that the camera didn't reboot when it didn't have a connection with tuya at the same time when I tried to access it locally. So followed the stuff in
+   https://github.com/guino/BazzDoorbell/issues/4 first without patching the `ppsapp-rtsp`, but finally applied more of the patches described in that thread to it to get the camera working completely offline.
