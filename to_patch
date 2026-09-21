@@ -22,3 +22,10 @@ Increase wait time between cloud access tries
         000d8e08 64 00 a0 e3     mov        r0,#0x64
 ->
         000d8e08 96 0f a0 e3     mov        r0,#0x258
+
+Remove call to pps_tuya_app_enable_cloudstorage
+        000cb1cc 5c fd ff eb     bl         pps_tuya_app_enable_cloudstorage
+->
+        000cb1cc 00 30 a0 e3     mov        r3,#0x0
+
+
