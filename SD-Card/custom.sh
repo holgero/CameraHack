@@ -19,7 +19,7 @@ if [ ! -e /tmp/customrun ]; then
   /mnt/mmc01/reredirect -m /tmp/log $PPSID > /tmp/redir.log
   /mnt/mmc01/log_parser.sh /dev/null < /tmp/log &
  fi
- /mnt/mmc01/offline.sh &
+ #/mnt/mmc01/offline.sh &
 fi
 if [ ! -e /tmp/cleanup`date +%Y%m%d` ]; then
  rm -rf /tmp/cleanup*

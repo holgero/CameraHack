@@ -9,3 +9,8 @@ Reboot after long time high cpu load
 ->
         00086958 00 30 83 e2     add        r3,r3,#0x0
 
+Wait for time synced
+        001719d8 00 30 e0 e3     mvn        r3,#0x0
+->
+        001719d8 00 30 a0 e3     mov        r3,#0x0
+
